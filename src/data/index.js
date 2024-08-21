@@ -132,7 +132,7 @@ const ChatList = [
 const Chat_History = [
   {
     type: "msg",
-    message: "Hi 👋🏻, How are ya ?",
+    message: "Hi 👋🏻, How are yoy bro ?",
     incoming: true,
     outgoing: false,
   },
@@ -142,13 +142,13 @@ const Chat_History = [
   },
   {
     type: "msg",
-    message: "Hi 👋 Panda, not bad, u ?",
+    message: "Hello, not bad, u ?",
     incoming: false,
     outgoing: true,
   },
   {
     type: "msg",
-    message: "Can you send me an abstarct image?",
+    message: "Can you send me an image?",
     incoming: false,
     outgoing: true,
   },
@@ -220,6 +220,74 @@ const Message_options = [
   },
 ];
 
+const SHARED_LINKS = [
+  
+  {
+    type: "msg",
+    subtype: "doc",
+    message: "Yes sure, here you go.",
+    incoming: true,
+    outgoing: false,
+  },
+  {
+    type: "msg",
+    subtype: "doc",
+    message: "Yes sure, here you go.",
+    incoming: true,
+    outgoing: false,
+  },
+  {
+    type: "msg",
+    subtype: "doc",
+    message: "Yes sure, here you go.",
+    incoming: true,
+    outgoing: false,
+  },
+  {
+    type: "msg",
+    subtype: "doc",
+    message: "Yes sure, here you go.",
+    incoming: true,
+    outgoing: false,
+  },
+
+  
+]
+const SHARED_DOCS = [
+  {
+    type: "msg",
+    subtype: "link",
+    preview: faker.image.cats(),
+    message: "Yep, I can also do that",
+    incoming: true,
+    outgoing: false,
+  },
+  {
+    type: "msg",
+    subtype: "link",
+    preview: faker.image.cats(),
+    message: "Yep, I can also do that",
+    incoming: true,
+    outgoing: false,
+  },
+  {
+    type: "msg",
+    subtype: "link",
+    preview: faker.image.cats(),
+    message: "Yep, I can also do that",
+    incoming: true,
+    outgoing: false,
+  },
+  {
+    type: "msg",
+    subtype: "link",
+    preview: faker.image.cats(),
+    message: "Yep, I can also do that",
+    incoming: true,
+    outgoing: false,
+  },
+]
+
 export {
   Profile_Menu,
   Nav_Setting,
@@ -227,4 +295,5 @@ export {
   ChatList,
   Chat_History,
   Message_options,
+  SHARED_DOCS,SHARED_LINKS
 };
